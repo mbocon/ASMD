@@ -1,0 +1,54 @@
+.study {
+	text-align: center;
+	margin-top: 2em;
+	padding: 1em;
+}
+
+.study-selection {
+	display: flex;
+	flex-direction: column;
+}
+
+.select-btn {
+	margin: 2em auto;
+	width: 25%;
+	position: relative;
+}
+
+.fa {
+	font-size: 1.25em;
+	position: absolute;
+	top: 22%;
+	right: 25%;
+}
+
+.add-btn,
+.subtract-btn,
+.multiply-btn,
+.divide-btn {
+	margin-right: 2em;
+}
+
+@media (max-width: 575.98px) {
+	.select-btn {
+		width: 50%;
+	}
+	.add-btn,
+	.subtract-btn,
+	.multiply-btn,
+	.divide-btn {
+		margin-right: 3em;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.select-btn {
+		width: 50%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.select-btn {
+		width: 50%;
+	}
+}
