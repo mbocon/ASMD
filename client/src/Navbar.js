@@ -29,6 +29,11 @@ const Navbar = () => {
 							Test
 						</a>
 					</li>
+					<li className='nav-item'>
+						<a className='nav-link' href='https://www.mikebocon.com' target="_blank" rel="noopener noreferrer">
+							Meet the Developer?
+						</a>
+					</li>
 				</ul>
 			</div>
 		</nav>
