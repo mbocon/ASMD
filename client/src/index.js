@@ -6,6 +6,7 @@ import Add from './Add';
 import Subtract from './Subtract';
 import Multiply from './Multiply';
 import Divide from './Divide';
+import Test from './Test';
 import { createBrowserHistory } from 'history';
 import { Switch, Route, Router } from 'react-router';
 
@@ -34,6 +35,11 @@ const routes = [
 		path: '/divide',
 		component: Divide,
 		name: 'Divide-Page',
+	},
+	{
+		path: '/test',
+		component: Test,
+		name: 'Test-Page',
 	},
 	{
 		path: '/',

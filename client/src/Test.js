@@ -2,12 +2,13 @@ import React from 'react';
 import Navbar from './Navbar';
 import './Study.css';
 
-const Study = () => {
+const Test = () => {
 	return (
 		<div>
 			<Navbar />
 			<div className='study'>
-				<h4>What would you like to do?</h4>
+                <h4>This page is still under construction</h4>
+                <h6>Select something to study in the meantime</h6>
 				<div className='study-selection'>
 					<a href='/add' className='btn btn-danger select-btn'><span className='add-btn'>Add</span> <i class="fa fa-plus"></i></a>
 					<a href='/subtract' className='btn btn-info select-btn'><span className="subtract-btn">Subtract</span><i class="fa fa-minus"></i></a>
@@ -19,4 +20,4 @@ const Study = () => {
 	);
 };
 
-export default Study;
+export default Test;

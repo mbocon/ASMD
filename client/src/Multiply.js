@@ -122,7 +122,7 @@ const Multiply = (props) => {
 									</span>
 								</div>
 							) : (
-								<span className={i === theIndex ? 'show' : 'hidden'} onClick={e => toggleAns(e, i)}>
+								<span className={i === theIndex ? 'showAns' : 'hidden'} onClick={e => toggleAns(e, i)}>
 									{range[i] * range[i + 1]}
 								</span>
 							)}
@@ -130,7 +130,7 @@ const Multiply = (props) => {
 					);
 				})}
             </div>
-            <div className='subtract'>
+            <div className='else'>
 				<button className='btn btn-primary' onClick={()=>props.history.push('/study')}>Study something else</button>
 			</div>
 		</div>
